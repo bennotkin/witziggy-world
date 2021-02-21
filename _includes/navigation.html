@@ -1,0 +1,8 @@
+<nav {% if page.url == "/" %} class="navIndex" {% endif %}> <!-- If error, see https://stackoverflow.com/questions/28932707/check-if-current-page-is-homepage-on-jekyll -->
+    {% for item in site.data.navigation %}
+        {% if page.url == item.link %}<a href="{{ item.link }}" class="currentPage">{% endif %}
+        {% else %}<a href="{{ item.link }}">{% endif %}
+        {{ item.name }}
+        </a>
+    {% endfor %}
+</nav>

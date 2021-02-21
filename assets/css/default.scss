@@ -1,0 +1,390 @@
+---
+---
+
+@font-face {
+    font-family: 'Wremena';
+    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_regular-webfont.woff2') format('woff2'),
+         url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wremena';
+    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_bold-webfont.woff2') format('woff2'),
+         url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_bold-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wremena';
+    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_light-webfont.woff2') format('woff2'),
+         url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gangster Grotesk';
+    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff2') format('woff2'),
+         url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gangster Grotesk';
+    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff2') format('woff2'),
+         url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+
+@import "main";
+
+$font-stack-prim: Wremena, serif;
+$font-stack-sec: 'Gangster Grotesk', sans-serif;
+$color-prim: #D8664C;
+$color-sec: #50658a;
+$color-tert: #f8e5c6;
+$color-back: #fcf2e3;
+$color-grey: #888888;
+$white: white;
+
+// Temporary minimalism
+// p, h1, h2, h3, h4, li {
+//     font-family: sans-serif, sf-mono, "SF Mono", monospace;
+//     font-weight:400;
+// }
+
+// FOR KEEPS
+
+// Layout
+// Vertical Lines
+
+#vl0, #vl1, #vl2, #vl3, #vl4, #vl5, #vl6 {
+    height: 90vh;
+    position: fixed; //maybe make fixed, but then would need to appear over footer
+    top: 5vh;
+    border-left: 1px solid black;
+    z-index: -1;
+    //isolation: isolate;
+}
+
+#vl0 { left: 5%;}
+#vl1 { left: 20%;}
+#vl2 { left: 35%;}
+#vl3 { left: 50%;}
+#vl4 { left: 65%;}
+#vl5 { left: 80%;}
+#vl6 { left: 96%;}
+
+div.window {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5vw repeat(6, 1fr) 5vw;
+    // column-gap: 1.25vw;
+    // border: 1px solid black;
+    //background-color: coral;
+    //opacity: .5;
+    //align-items: center;
+}
+
+// Left side of the homepage
+div.homeLeft {
+    grid-column: 2 / span 3;
+    //background-color: cornsilk;
+    height: 90vh;
+    padding: 5vh .625vw;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+div.logoHome {
+    font-size: 80px; //fix to relative units?
+    // margin: 0 7vw 0 7vw;
+    letter-spacing: .05ch;
+    line-height: 1em;
+    font-weight: lighter;
+    margin: 0 1vw;
+}
+
+div.logoHome p {
+    margin: 0em 0;
+    background: none;
+    position: relative;
+    z-index: 4;
+}
+
+// hiding the vertical lines under the logo
+div.logoHome p span {
+    background-color: $white;
+    //mix-blend-mode: multiply;
+    display: inline-block;
+}
+
+div.homeDescription p {
+    // background-color: $color-back;
+    // padding: 1ch;
+    margin: 0 0 0.5em 0;
+}
+
+// div.homeDescription {
+//     background-color: $white;
+// }
+
+#mc_embed_signup input.email,
+#mc_embed_signup input.button {
+    display: inline-block;
+}
+
+div.logoHome p:nth-child(2) {
+    text-align: right;
+    z-index: 2;
+}
+
+// div.logoHome p:nth-child(2) span {
+//     background-color: cyan;
+//}
+
+// Subscription signup (maybe change on other pages than home)
+div#mc_embed_signup_scroll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.25vw;
+}
+
+#mc-embedded-subscribe-form {margin: 0;}
+#mce-EMAIL, #mc-signup-sub, #mc-embedded-subscribe {width: 100%;}
+
+#mc_embed_signup_scroll input {
+    border: 1px solid black;
+    background-color: $white;
+    font-size: 0.8em;
+    font-family: $font-stack-sec;
+    height: 1.5em;
+    line-height: 1;
+    padding: 0 .5ch;
+    // display: inline-flex;
+    // align-items: center;  
+}
+
+// input#mce-EMAIL {border: none; border-bottom: 2px solid black;}
+
+// change this for narrower screens so button is below field
+
+@media screen and (min-width: 600px) {
+    .mc-field-group {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+    }
+
+    #mc-signup-sub {
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 1;
+    }
+}
+
+
+// right side of home page
+div.homeRight {
+    grid-column: 5 / span 4;
+    //background-color: cornsilk;
+    // height: 4.5rem;
+    padding: 5vh .625vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 5vw;
+    column-gap: 1.25vw;
+    overflow-y: scroll;
+}
+
+// Position the list of articles on the far left two columns
+div.postStream {
+    grid-column: 2 / span 2;
+    background-color: $white;
+    margin-bottom: 2em;
+}
+
+div.postStream h1 {
+    font-family: $font-stack-prim;
+    font-size: 1.6rem;
+    font-weight: normal;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+// Define the "season font" (e.g. Fall 2021)
+span.sec {
+    font-family: $font-stack-prim;
+    color:$color-grey;
+    font-style: normal;
+    font-size: 0.8em;
+    text-transform: none;
+}
+
+.postStream a {
+    text-decoration: none;
+}
+
+p {
+    background-color: $white;
+    margin: 0 0 .5 0;
+}
+
+//move to main
+body {
+    padding: .5ch 1ch;
+    display: grid;
+//     max-width: 70ch;
+    margin: auto;
+//     // grid-template-rows: 3em auto;
+}
+
+.nav {
+    grid-row: 1/1;
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, 1fr);
+    // grid-template-rows: 1fr;
+    grid-auto-flow: column;
+}
+
+//.main {
+    // grid-row: 2 / span 1;
+//}
+
+.content {
+    min-height: calc(95vh - 3em);
+}
+
+a {
+    color: inherit
+}
+
+// Images
+
+// Fonts & Text
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: $font-stack-prim;
+}
+
+.current-page {
+    color:$color-prim;
+}
+
+h1, h2 {
+    color: $color-prim
+}
+
+// h1 {
+//     font-weight: 400;
+//     text-align: center;
+//     font-style: italic;
+//     padding: 2em 0 1em 0;
+// }
+
+// h2 {
+//     font-size: 1.1em;
+//     font-weight: normal;
+//     text-transform: uppercase;
+//     //font-style: italic;
+//     letter-spacing: 0.1ch;
+// }
+
+//this might only be for the nav
+h3 {
+    font-family: $font-stack-sec;
+    text-transform: uppercase;
+    letter-spacing: 0.2ch;
+    font-size: 1em;
+    color: $color-grey;
+    font-weight: 400;
+    margin: .5em 0;
+}
+
+h4 {
+    font-family: $font-stack-prim;
+    font-weight: normal;
+    font-size: calc(1.6em * .8);
+    margin: 0.8em 0 0 0;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+code {
+    font-family: sf-mono, "SF Mono", Menlo, monospace;
+    background-color: lightgray;
+    padding: 0 0.5ch;
+    font-size: 0.9em;
+}
+
+//move to main
+// .footer {
+//     font-family: $font-stack-sec;
+//     font-size: 0.9rem;
+//     min-height: 3em;
+// }
+#footer {
+    background-color: $color-back;
+    // mix-blend-mode: multiply;
+    height: 50vh;
+    // grid-column: 1 / end;
+    position: absolute;
+    top: 100vh;
+    width: 100vw;
+    // margin-top: 5vh;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        padding: 0;
+        // overflow: hidden;
+        // max-width: 100vw;
+        grid-template-columns: 25ch 1fr;
+        // grid-template-rows: 100vw;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .nav {
+        padding: 2ch;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        overflow-y: hidden;
+        display: block;
+        // grid-auto-flow: row;
+        // grid-template-columns: 1fr;
+        // grid-template-rows: repeat(6, 1em);
+        align-items: end;
+        align-self: end;
+
+        h3 {
+            font-size: 1em;
+            line-height: 1;
+        }
+    }
+
+    .main {
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
+        overflow-y: scroll;
+    }
+
+    .content {
+        max-width: 70ch;
+        // overflow-y: scroll;
+    }
+}
