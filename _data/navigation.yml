@@ -2,5 +2,7 @@
   link: /
 - name: Quarterlies
   link: /quarterlies/
-- name: Contact & Subscribe
-  link: contact/
+- name: Subscribe
+  link: /contact/
+- name: About
+  link: /about/

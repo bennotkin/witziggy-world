@@ -1,0 +1,102 @@
+---
+---
+@import "variables";
+
+nav { //move to index.scss?
+    grid-column: 2 / span 6;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+// Left side of the homepage
+div.homeLeft {
+    grid-column: 2 / span 3;
+    //background-color: cornsilk;
+    height: calc(90vh - 1em); //subtracting 1 em for the nav bar on top (and 5vh from top and bottom)
+    padding: 5vh .625vw;
+    padding-top: 0; // if there's a nav bar, the 5vh padding is already in place
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+div.logo {
+    grid-column: 1 / span 2;
+    // grid-row: 1 / span 1
+    font-size: 80px; //fix to relative units?
+    font-weight: lighter;
+    // justify-self: auto;
+    width: 100%;
+}
+
+// hiding the vertical lines under the logo
+div.logo p span {
+    background-color: $white;
+    //mix-blend-mode: multiply;
+    display: inline-block;
+}
+
+div.homeDescription p {
+    // background-color: $color-back;
+    // padding: 1ch;
+    margin: 0 0 0.5em 0;
+}
+
+// div.homeDescription {
+//     background-color: $white;
+// }
+
+// div.logo p:nth-child(2) span {
+//     background-color: cyan;
+//}
+
+// right side of home page
+div.homeRight {
+    grid-column: 5 / span 4;
+    //background-color: cornsilk;
+    // height: 4.5rem;
+    height: calc(90vh - 1em); //subtracting 1 em for the nav bar on top (and 5vh from top and bottom)
+    padding: 5vh .625vw;
+    padding-top: 1vh; // if there's a nav bar, the 5vh padding is already in place
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 5vw;
+    column-gap: 1.25vw;
+    overflow-y: scroll;
+}
+
+// Position the list of articles on the far left two columns
+div.postStream {
+    grid-column: 2 / span 2;
+    background-color: $white;
+    margin-bottom: 2em;
+}
+
+div.postStream h1 {
+    font-family: $font-stack-prim;
+    font-size: 1.6rem;
+    // font-weight: normal;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+div.postStream:nth-child(2n) h1 {
+    color: $color-prim;
+}
+
+div.postStream:nth-child(4n) h1 {
+    color: $color-sec;
+}
+
+// Define the "season font" (e.g. Fall 2021)
+span.sec {
+    font-family: $font-stack-prim;
+    color:$color-grey;
+    font-style: normal;
+    font-size: 0.8em;
+    text-transform: none;
+}
+
+.postStream a {
+    text-decoration: none;
+}

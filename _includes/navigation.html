@@ -1,8 +1,22 @@
-<nav {% if page.url == "/" %} class="navIndex" {% endif %}> <!-- If error, see https://stackoverflow.com/questions/28932707/check-if-current-page-is-homepage-on-jekyll -->
+{% if page.url == "/" %}
+<nav class="navIndex">
+{% else %}
+<nav> <!-- If error, see https://stackoverflow.com/questions/28932707/check-if-current-page-is-homepage-on-jekyll -->
+{% endif %}
+    {% unless page.url == "/" %} 
+        <div class="logo">
+            <p><a href="/"><span class="logoSpan">Witziggy</span></a></p>
+            <p><a href="/"><span class="logoSpan">—World</span></a></p>
+        </div>
+    {% endunless %}
     {% for item in site.data.navigation %}
-        {% if page.url == item.link %}<a href="{{ item.link }}" class="currentPage">{% endif %}
-        {% else %}<a href="{{ item.link }}">{% endif %}
+        {% unless page.url != "/" and item.link == "/" %}
+        {% if page.url == item.link %}
+        <a href="{{ item.link }}" class="currentPage">
+        {% else %}<a href="{{ item.link }}">
+        {% endif %}
         {{ item.name }}
         </a>
+        {% endunless %}
     {% endfor %}
 </nav>

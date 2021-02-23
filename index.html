@@ -1,0 +1,37 @@
+---
+layout: default
+title: Witziggy World
+custom-css: "index.css"
+---
+
+<div class="homeLeft">
+    <div class="logo">
+        <p><span class="logoSpan">Witziggy</span></p>
+        <p><span class="logoSpan">—World</span></p>
+    </div>
+    <div class="homeDescription">
+        <p>The world is confusing. There’s lots to figure out and understand, and
+            Instagram stories aren’t slow enough to help us think. This website & newsletter
+            exists to help readers understand big, hairy, intractable problems in society,
+            through blogposts and recorded interviews.</p>
+            {% include subscribe.html %}
+    </div>
+</div>
+<div class="homeRight">
+    <!-- {% for category in site.categories %} -->
+        <!-- <div class="archive-group"> -->
+            <!-- {% capture category_name %}{{ category | first }}{% endcapture %} -->
+            <div class="issueImage" style="grid-column: 1 / span 3; height: 45vh; background-color: cornsilk;"></div> <!-- replace with liquid element for image-->
+            <div class="postStream">
+                <h1><span class="sec">spring 2021</span> {{ category_name }}</h1>
+                <!-- {% for post in site.categories[category_name] %} -->
+                <!-- <article class="archive-item"> -->
+                <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+                <!-- if we want post excerpts --> <!--<p>{{ post.excerpt }}</p> -->
+                <!-- <p>{{post.excerpt}}</p> -->
+                <!-- </article> -->
+                <!-- {% endfor %} -->
+            </div>
+        <!-- </div> -->
+    <!-- {% endfor %} -->
+</div>
