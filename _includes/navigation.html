@@ -12,11 +12,11 @@
     {% for item in site.data.navigation %}
         {% unless page.url != "/" and item.link == "/" %}
         {% if page.url == item.link %}
-        <a href="{{ item.link }}" class="currentPage">
-        {% else %}<a href="{{ item.link }}">
+        <p><a href="{{ item.link }}" class="currentPage">
+        {% else %}<p><a href="{{ item.link }}">
         {% endif %}
         {{ item.name }}
-        </a>
+        </a></p>
         {% endunless %}
     {% endfor %}
 </nav>

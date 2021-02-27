@@ -18,20 +18,25 @@ custom-css: "index.css"
     </div>
 </div>
 <div class="homeRight">
-    <!-- {% for category in site.categories %} -->
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% for category in site.categories %}
         <!-- <div class="archive-group"> -->
-            <!-- {% capture category_name %}{{ category | first }}{% endcapture %} -->
-            <div class="issueImage" style="grid-column: 1 / span 3; height: 45vh; background-color: cornsilk;"></div> <!-- replace with liquid element for image-->
+            {% capture category_name %}{{ category | first }}{% endcapture %}
+            {% assign issueImage = image_files | where: "basename", category_name %}
+            {% for img in issueImage limit: 1 %}                
+            <div class="issueImage">
+                <img src="assets/images/{{ img.name }}">
+            </div>
+            {% endfor %}
+            <!-- replace with liquid element for image-->
             <div class="postStream">
                 <h1><span class="sec">spring 2021</span> {{ category_name }}</h1>
-                <!-- {% for post in site.categories[category_name] %} -->
-                <!-- <article class="archive-item"> -->
+                {% for post in site.categories[category_name] %}
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-                <!-- if we want post excerpts --> <!--<p>{{ post.excerpt }}</p> -->
-                <!-- <p>{{post.excerpt}}</p> -->
+                <!-- if we want post excerpts --> <!--<p>post.excerpt</p> -->
+                <!-- <p>post.excerpt</p> -->
                 <!-- </article> -->
-                <!-- {% endfor %} -->
+                {% endfor %}
             </div>
-        <!-- </div> -->
-    <!-- {% endfor %} -->
+            {% endfor %}
 </div>

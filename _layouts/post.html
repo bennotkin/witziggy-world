@@ -2,8 +2,11 @@
 layout: default
 ---
 <div class="post">
-    <div class="longtitle"><h1 >{{ page.longtitle }}</h1></div>
+    <div class="longtitle"><h1 >{% if page.longtitle %}{{ page.longtitle }}{% else %}{{page.title}}{% endif %}</h1></div>
     <div class="postContent">
+        <div class="postMeta">
+            {{ page.date | date: '%B %d, %Y' }} • {{ page.author }}
+        </div>
         {{ content }}
     </div>
 </div>

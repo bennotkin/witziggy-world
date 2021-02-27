@@ -58,16 +58,23 @@
     //isolation: isolate;
 }
 
-#vl0 { left: 5%;}
-#vl1 { left: 20%;}
-#vl2 { left: 35%;}
-#vl3 { left: 50%;}
-#vl4 { left: 65%;}
-#vl5 { left: 80%;}
-#vl6 { left: 96%;}
+#vl0 { left: $outside-margins;}
+#vl1 {
+    left: ($outside-margins-narrow + (100vw - $outside-margins*2)/6);
+    display: none;}
+#vl2 {
+    left: $outside-margins-narrow + 2*(100vw - $outside-margins-narrow*2)/6;
+    display: none;}
+#vl3 { left: $outside-margins-narrow + 3*(100vw - $outside-margins-narrow*2)/6;}
+#vl4 {
+    left: $outside-margins-narrow + 4*(100vw - $outside-margins-narrow*2)/6;
+    display: none}
+#vl5 { left: $outside-margins-narrow + 5*(100vw - $outside-margins-narrow*2)/6;}
+#vl6 { left: 100-$outside-margins-narrow;
+    display: none}
 
 html {
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 // body, body * {
@@ -76,10 +83,9 @@ html {
 
 div.window {
     width: 100vw;
-    height: 100vh;
     display: grid;
-    grid-template-columns: 5vw repeat(6, 1fr) 5vw;
-    // column-gap: 1.25vw;
+    grid-template-columns: 1vw repeat(6, 1fr) 1vw;
+    // column-gap: $col-gap;
     // border: 1px solid black;
     //background-color: coral;
     //opacity: .5;
@@ -87,25 +93,31 @@ div.window {
 }
 
 nav{
-    margin: 5vh 0 0 0;
+    padding: 5vh 0 0 0;
 }
 
 nav { //move to index.scss?
-    grid-column: 2 / span 6;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 1.25vw;
-    grid-template-rows: 1fr;
-    // background-color: $color-prim;
+    grid-column: 1 / span 2;
+    // display: grid;
+    // grid-template-columns: 5vw auto;
+    // column-gap: 1.25vw;
+    // grid-template-rows: 1fr;
+    background-color: $color-back;
+    // grid-template-rows: 3em, calc(100vh-3em);
+    padding-right: $col-gap/2;
+    padding-left: 1vw; //calc( {$outside-margins} + 0.6125vw) doesnt calc
     font-family: $font-stack-sec;
-    text-align: center;
-    height: 1em;
+    text-align: left;
+    // height: 1em;
+    // align-items: center;
+    // font-weight: lighter;
 }
-
-nav a {text-decoration: none;}
+nav > p {background: none; padding-left: .5ch;}
+nav a {text-decoration: none; }
 
 div.logo {
     font-family: $font-stack-prim;
+    font-weight: lighter;
     // grid-column: 2 / span 1;
     grid-row: 1 / span 1;
     // margin: 0 7vw 0 7vw;
@@ -128,8 +140,15 @@ div.logo p:nth-child(even), .longtitle p:nth-child(even) {
     z-index: 2;
 }
 
+nav div.logo {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
 div.longtitle {
-    width: min(120%, 100vw);
+    margin-top: 15vh;
+    width: min(110%, 100vw);
+    color: $color-prim;
     // align-self: center;
 }
 
@@ -153,7 +172,7 @@ div.post {
 div#mc_embed_signup_scroll {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.25vw;
+    column-gap: $col-gap;
 }
 
 #mc-embedded-subscribe-form {margin: 0;}
@@ -214,7 +233,7 @@ body {
 //}
 
 .content {
-    min-height: calc(95vh - 3em);
+    min-height: calc(95vh - 3em); 
 }
 
 a {
@@ -225,11 +244,11 @@ a {
 
 // Fonts & Text
 html {
-    font-size: 20px;
+    font-size: 18px;
+    // overflow-x: hidden;
 }
 
 body {
-    font-size: 20px;
     line-height: 1.3;
     font-family: $font-stack-prim;
 }
@@ -288,6 +307,10 @@ h4 {
 //     text-decoration: none;
 // }
 
+div.postMeta {
+    font-family: $font-stack-sec;
+    margin-bottom: 1em;
+}
 div.postContent {
     // margin: 2ch;
     width: 101%;
@@ -312,14 +335,13 @@ code {
 //     min-height: 3em;
 // }
 .footer {
-    padding: 5vh 10vw;
-    // display: grid;
+    padding: 5vh 0;
+    display: grid;
+    grid-template-columns: 1vw repeat(6, 1fr) 1vw;
     background-color: $color-back;
     // mix-blend-mode: multiply;
     height: 50vh;
     // grid-column: 1 / end;
-    position: absolute;
-    top: 100vh;
     width: 100vw;
     // margin-top: 5vh;
 }
@@ -330,16 +352,16 @@ code {
     font-size: 0.8em;
 }
 
-@media screen and (min-width: 600px) {
-    body {
-        padding: 0;
-        // overflow: hidden;
-        // max-width: 100vw;
-        grid-template-columns: 25ch 1fr;
-        // grid-template-rows: 100vw;
-        height: 100vh;
-        width: 100vw;
-    }
+// @media screen and (min-width: 600px) {
+    // body {
+    //     padding: 0;
+    //     // overflow: hidden;
+    //     // max-width: 100vw;
+    //     // grid-template-columns: 25ch 1fr;
+    //     // grid-template-rows: 100vw;
+    //     height: 100vh;
+    //     width: 100vw;
+    // }
 
     // .nav {
     //     padding: 2ch;
@@ -369,4 +391,42 @@ code {
     //     max-width: 70ch;
     //     // overflow-y: scroll;
     // }
+// }
+
+
+
+// move all media queries to the end
+@media (min-width: 850px) {
+    html {
+        font-size: 20px;
+    }
+    div.footer, div.window {
+        grid-template-columns: $outside-margins repeat(6, 1fr) $outside-margins;
+    }
+    nav {
+        padding-left: $outside-margins; //calc( {$outside-margins} + 0.6125vw) doesnt calc
+
+    }
+    #vl0 { left: $outside-margins;}
+    #vl1 {
+        left: ($outside-margins + (100vw - $outside-margins*2)/6);
+        display: none;}
+    #vl2 { left: $outside-margins + 2*(100vw - $outside-margins*2)/6;}
+    #vl3 { left: $outside-margins + 3*(100vw - $outside-margins*2)/6;}
+    #vl4 { left: $outside-margins + 4*(100vw - $outside-margins*2)/6;}
+    #vl5 { left: $outside-margins + 5*(100vw - $outside-margins*2)/6;}
+    #vl6 { left: 100-$outside-margins;}
+}
+
+@media only screen 
+  and (min-device-width: 813px) 
+  and (-webkit-min-device-pixel-ratio: 3), (orientation: landscape) { 
+    #vl2, #vl4, #vl6 {display: block}
+    .window {
+        height: 100vh;
+    }
+    .footer {
+        position: absolute;
+        top: 100vh;
+    }
 }
