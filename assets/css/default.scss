@@ -346,6 +346,10 @@ code {
     // margin-top: 5vh;
 }
 
+.footer > * {
+    grid-column: 3 / span 4;
+}
+
 .footer p {
     background-color: inherit; 
     font-family: $font-stack-sec; 
