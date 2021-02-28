@@ -30,7 +30,9 @@ custom-css: "index.css"
             {% endfor %}
             <!-- replace with liquid element for image-->
             <div class="postStream">
-                <h1><span class="sec">spring 2021</span> {{ category_name }}</h1>
+                {% for post in site.categories[category_name] limit: 1 %}
+                <h1><span class="sec">{{ post.date | date: "%B %Y"}}</span> {{ category_name }}</h1>
+                {% endfor %}
                 {% for post in site.categories[category_name] %}
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
                 <!-- if we want post excerpts --> <!--<p>post.excerpt</p> -->

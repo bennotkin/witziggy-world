@@ -61,7 +61,8 @@
 #vl0 { left: $outside-margins;}
 #vl1 {
     left: ($outside-margins-narrow + (100vw - $outside-margins*2)/6);
-    display: none;}
+    display: none;
+}
 #vl2 {
     left: $outside-margins-narrow + 2*(100vw - $outside-margins-narrow*2)/6;
     display: none;}
@@ -93,7 +94,7 @@ div.window {
 }
 
 nav{
-    padding: 5vh 0 0 0;
+    padding: 5vh 0 5vh 0ch;
 }
 
 nav { //move to index.scss?
@@ -111,6 +112,9 @@ nav { //move to index.scss?
     // height: 1em;
     // align-items: center;
     // font-weight: lighter;
+    display: grid;
+    grid-template-rows: auto;
+    grid-auto-rows: 2em;
 }
 nav > p {background: none; padding-left: .5ch;}
 nav a {text-decoration: none; }
@@ -125,6 +129,7 @@ div.logo {
     line-height: 1em;
     justify-self: center;
     width: 100%;
+    padding-right: 1ch;
     // font-weight: normal;
 }
 
@@ -133,6 +138,10 @@ div.logo p {
     background: none;
     position: relative;
     z-index: 4;
+}
+
+div.logo a {
+    text-decoration: none;
 }
 
 div.logo p:nth-child(even), .longtitle p:nth-child(even) {
@@ -145,14 +154,27 @@ nav div.logo {
     margin-bottom: 1em;
 }
 
+div.post, div.page {
+    width: 100%;
+}
+
 div.longtitle {
     margin-top: 15vh;
     width: min(110%, 100vw);
-    color: $color-prim;
     // align-self: center;
+    background-color: $white;
 }
 
-div.post {
+div.post div.longtitle {
+    color: $color-prim;
+}
+
+div.page div.longtitle {
+    color: $color-sec;
+}
+
+
+div.post, div.page {
     grid-column: 4 / span 3;
     justify-self: center;
     align-items: center;
@@ -218,6 +240,7 @@ body {
 //     max-width: 70ch;
     margin: auto;
 //     // grid-template-rows: 3em auto;
+    background-color: $white;  
 }
 
 // .nav {
@@ -335,19 +358,33 @@ code {
 //     min-height: 3em;
 // }
 .footer {
-    padding: 5vh 0;
+    // margin-top: 5vh;
+    padding: 5vh 0 50vh 0;
     display: grid;
     grid-template-columns: 1vw repeat(6, 1fr) 1vw;
-    background-color: $color-back;
+    column-gap: $col-gap;
+    background-color: $color-prim;
+    color:white;
     // mix-blend-mode: multiply;
-    height: 50vh;
+    // height: 50vh;
     // grid-column: 1 / end;
     width: 100vw;
     // margin-top: 5vh;
 }
 
-.footer > * {
+#footerList1 {
+    grid-column: 4 / span 1;
+    text-align: right;
+}
+#footerList2 {
+    grid-column: 5 / span 1;
+}
+
+.footer #copyright {
+    padding-top: 5vh;
     grid-column: 3 / span 4;
+    align-self: center;
+    text-align: center;
 }
 
 .footer p {
@@ -414,7 +451,8 @@ code {
     #vl0 { left: $outside-margins;}
     #vl1 {
         left: ($outside-margins + (100vw - $outside-margins*2)/6);
-        display: none;}
+        display: none;
+    }
     #vl2 { left: $outside-margins + 2*(100vw - $outside-margins*2)/6;}
     #vl3 { left: $outside-margins + 3*(100vw - $outside-margins*2)/6;}
     #vl4 { left: $outside-margins + 4*(100vw - $outside-margins*2)/6;}

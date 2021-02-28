@@ -5,8 +5,8 @@
 {% endif %}
     {% unless page.url == "/" %} 
         <div class="logo">
-            <p><a href="/"><span class="logoSpan">Witziggy</span></a></p>
-            <p><a href="/"><span class="logoSpan">—World</span></a></p>
+            <p><a href="{{ site.baseurl }}/"><span class="logoSpan">Witziggy</span></a></p>
+            <p><a href="{{ site.baseurl }}/"><span class="logoSpan">—World</span></a></p>
         </div>
     {% endunless %}
     {% for item in site.data.navigation %}

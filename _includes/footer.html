@@ -1,3 +1,13 @@
 <div class="footer">
-    <p>Copyright © 2021 Kyle Witzigman. All rights reserved.</p>
+    <div id="footerList1">
+        {% for item in site.data.footer.list1 %}
+        <p><a href="{{ item.link }}">{{ item.name }}</a></p>
+        {% endfor %}
+    </div>
+    <div id="footerList2">
+        {% for item in site.data.footer.list2 %}
+        <p><a href="{{ item.link }}">{{ item.name }}</a></p>
+        {% endfor %}
+    </div>
+    <p id="copyright">Copyright © 2021 Kyle Witzigman. All rights reserved.</p>
 </div>

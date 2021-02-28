@@ -1,6 +1,6 @@
 ---
 title: Quarterlies
-layout: default
+layout: page
 ---
 Roughly four times a year I send out a newsletter on a theme.
 

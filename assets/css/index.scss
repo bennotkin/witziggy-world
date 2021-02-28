@@ -42,6 +42,7 @@ div.logo {
     // justify-self: auto;
     width: 100%;
     max-width: 13ch;
+    padding-right: 0;
 }
 
 // hiding the vertical lines under the logo
@@ -78,7 +79,7 @@ div.homeRight {
 }
 div.issueImage {
     grid-column: 1 / span 3;
-    text-align:right;
+    text-align: center;
 }
 div.homeRight img {
     max-width: 100%;
@@ -115,10 +116,10 @@ div.postStream:nth-child(4n) h1 {
 
 // Define the "season font" (e.g. Fall 2021)
 span.sec {
-    font-family: $font-stack-prim;
+    font-family: $font-stack-sec;
     color:$color-grey;
     font-style: normal;
-    font-size: 0.8em;
+    font-size: 0.75em;
     text-transform: none;
 }
 
@@ -150,5 +151,13 @@ span.sec {
         grid-column: 5 / span 3;
         height: calc(90vh - 1rem); //subtracting 1 em for the nav bar on top (and 5vh from top and bottom)
         overflow-y: scroll;
+    }
+
+    div.issueImage {
+        text-align:right;
+    }
+    .footer {
+        position: absolute;
+        top: 100vh;
     }
 }
