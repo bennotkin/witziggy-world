@@ -4,16 +4,13 @@
 <nav> <!-- If error, see https://stackoverflow.com/questions/28932707/check-if-current-page-is-homepage-on-jekyll -->
 {% endif %}
     {% unless page.url == "/" %} 
-        <div class="logo">
-            <p><a href="{{ site.baseurl }}/"><span class="logoSpan">Witziggy</span></a></p>
-            <p><a href="{{ site.baseurl }}/"><span class="logoSpan">—World</span></a></p>
-        </div>
+        {% include logo.html %}
     {% endunless %}
     {% for item in site.data.navigation %}
         {% unless page.url != "/" and item.link == "/" %}
         {% if page.url == item.link %}
-        <p><a href="{{ item.link }}" class="currentPage">
-        {% else %}<p><a href="{{ item.link }}">
+        <p><a href="{{ item.link | absolute_url }}" class="currentPage">
+        {% else %}<p><a href="{{ item.link | absolute_url }}">
         {% endif %}
         {{ item.name }}
         </a></p>
