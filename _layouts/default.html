@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8">
         <title>Witziggy World {% if page.title != "Witziggy World" %} - {{ page.title }} {% endif %}</title>
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css">
-        <link rel="stylesheet" href="{{ site.baseurl }}{{ page.custom-css | prepend: '/assets/css/' }}">
+        <link rel="stylesheet" href="{{ "/assets/css/default.css" | absolute_url }}">
+        <link rel="stylesheet" href="{{ {{ page.custom-css | prepend: '/assets/css/' | absolute_url }}">
     </head>
     <body>
         <!-- <div id="vl0"></div> -->
@@ -22,7 +22,6 @@
             <!-- <div id="footer"></div> -->
             
         </div>
-        <p>{{ site.baseurl }}</p>
         {% include footer.html %}
     </body>
 </html>
