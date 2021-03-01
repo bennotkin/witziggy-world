@@ -1,9 +1,7 @@
 ---
 ---
-// Load sass variables (colors, font stack, etc.)
 @import "variables";
 
-// Load fonts
 @font-face {
     font-family: 'Wremena';
     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_regular-webfont.woff2') format('woff2'),
@@ -11,6 +9,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Wremena';
     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_bold-webfont.woff2') format('woff2'),
@@ -18,6 +17,7 @@
     font-weight: bolder;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Wremena';
     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_light-webfont.woff2') format('woff2'),
@@ -25,6 +25,7 @@
     font-weight: lighter;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Gangster Grotesk';
     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff2') format('woff2'),
@@ -32,6 +33,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Gangster Grotesk';
     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff2') format('woff2'),
@@ -40,19 +42,22 @@
     font-style: normal;
 }
 
-// Everything below is for mobile first; 
-// Media query for wider screens is at bottom.
 
-// LAYOUT
-// Vertical lines for the background
+
+// Layout
+// Vertical Lines
+
+// body {background-color: coral;}
+
 #vl0, #vl1, #vl2, #vl3, #vl4, #vl5, #vl6 {
     height: 90vh;
-    position: fixed;
-    top: $vertical-margin;
+    position: fixed; //maybe make fixed, but then would need to appear over footer
+    top: 5vh;
     border-left: 1px solid black;
     z-index: -1;
     //isolation: isolate;
 }
+
 #vl0 { left: $outside-margins;}
 #vl1 {
     left: ($outside-margins-narrow + (100vw - $outside-margins*2)/6);
@@ -69,44 +74,65 @@
 #vl6 { left: 100-$outside-margins-narrow;
     display: none}
 
-// Container for primary content (everything but footer right now);
-// Container provides 6 column grid for content (with two border columns)
+html {
+    // overflow-x: hidden;
+}
+
+// body, body * {
+//     overflow-x: hidden;
+// }
+
 div.window {
     width: 100vw;
     display: grid;
     grid-template-columns: 1vw repeat(6, 1fr) 1vw;
-    // column-gap: $col-gap; // not active because it seems to prevent grids of contents from matching
+    // column-gap: $col-gap;
+    // border: 1px solid black;
+    //background-color: coral;
+    //opacity: .5;
+    //align-items: center;
 }
 
-// Navigation bar for default pages (everything besides index)
 nav{
+    padding: 5vh 0 5vh 0ch;
+}
+
+nav { //move to index.scss?
     grid-column: 1 / span 2;
-    padding: $vertical-margin $col-gap/2 $vertical-margin 0; // top and bottom margins maybe shouldn't be same as vertical margin
-    background-color: $color-back; // alt design is give white background with thick colorful right border
-    // padding-left: 1vw; //calc( {$outside-margins} + 0.6125vw) doesnt calc
+    // display: grid;
+    // grid-template-columns: 5vw auto;
+    // column-gap: 1.25vw;
+    // grid-template-rows: 1fr;
+    background-color: $color-back;
+    // grid-template-rows: 3em, calc(100vh-3em);
+    padding-right: $col-gap/2;
+    padding-left: 1vw; //calc( {$outside-margins} + 0.6125vw) doesnt calc
     font-family: $font-stack-sec;
     text-align: left;
+    // height: 1em;
+    // align-items: center;
+    // font-weight: lighter;
     display: grid;
-    grid-auto-rows: 2em; // auto-fills rows with set height for nav items
-    grid-template-rows: auto; // pushes nav items to the bottom of the sidebar (gives logo all remaining height)
+    grid-template-rows: auto;
+    grid-auto-rows: 2em;
 }
-// paragraphs that are immediate children of nav bar
 nav > p {background: none; padding-left: .5ch;}
 nav a {text-decoration: none; }
 
-// Logo
 div.logo {
-    // structure
+    font-family: $font-stack-prim;
+    font-weight: lighter;
+    // grid-column: 2 / span 1;
     grid-row: 1 / span 1;
+    // margin: 0 7vw 0 7vw;
+    letter-spacing: .05ch;
+    line-height: 1em;
     justify-self: center;
     width: 100%;
     padding-right: 1ch;
-    // typography
-    font-family: $font-stack-prim;
-    font-weight: lighter;
-    letter-spacing: .05ch;
-    line-height: 1em;
+    // font-weight: normal;
 }
+
 div.logo p {
     margin: 0em 0;
     background: none;
@@ -209,8 +235,11 @@ p {
 
 //move to main
 body {
-
+    // padding: .5ch 1ch;
     display: grid;
+//     max-width: 70ch;
+    // margin: auto;
+//     // grid-template-rows: 3em auto;
     background-color: $white;  
 }
 
