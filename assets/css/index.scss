@@ -106,6 +106,12 @@ div.postStream h1 {
     text-transform: uppercase;
 }
 
+div.postStream h4 {
+    font-family: $font-stack-prim;
+    // color: $color-grey;
+}
+
+// div.postStream:nth-child(2n) h1 {
 div.postStream:nth-child(2n) h1 {
     color: $color-prim;
 }
@@ -142,6 +148,9 @@ span.sec {
 @media only screen 
   and (min-device-width: 813px) 
   and (-webkit-min-device-pixel-ratio: 3), (orientation: landscape) { 
+    .window {
+        height: 100vh;
+    }
     div.homeLeft {
         grid-column: 2 / span 3;
         height: calc(90vh - 1rem); //subtracting 1 em for the nav bar on top (and 5vh from top and bottom)

@@ -75,6 +75,8 @@ div.window {
     width: 100vw;
     display: grid;
     grid-template-columns: 1vw repeat(6, 1fr) 1vw;
+    border-top: 2vh solid $color-prim;
+    border-bottom: 2vh solid $color-prim;
     // column-gap: $col-gap; // not active because it seems to prevent grids of contents from matching
 }
 
@@ -209,7 +211,8 @@ p {
 
 //move to main
 body {
-
+    margin: 0;
+    padding: 0;
     display: grid;
     background-color: $white;  
 }
@@ -261,7 +264,8 @@ h1 p {
 }
 
 h2 {
-    color: $color-prim
+    color: $color-sec;
+    margin: 1em 0 .5em 0;
 }
 
 // h1 {
@@ -285,13 +289,13 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.2ch;
     font-size: 1em;
-    color: $color-grey;
+    color: $color-sec;
     font-weight: 400;
-    margin: .5em 0;
+    margin: 1em 0 0.5em 0;
 }
 
 h4 {
-    font-family: $font-stack-prim;
+    font-family: $font-stack-sec;
     font-weight: normal;
     font-size: calc(1.6em * .8);
     margin: 0.8em 0 0 0;
@@ -315,11 +319,18 @@ div.postContent {
     background-color: $white;
 }
 
+pre.highlight {
+    background-color: $color-back;
+    border-radius: .5ch;
+    padding: 1ch;
+}
+
 code {
     font-family: sf-mono, "SF Mono", Menlo, monospace;
-    background-color: lightgray;
+    background-color: $color-back;
     padding: 0 0.5ch;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    border-radius: 3px;
 }
 
 //move to main
@@ -334,8 +345,8 @@ code {
     display: grid;
     grid-template-columns: 1vw repeat(6, 1fr) 1vw;
     column-gap: $col-gap;
-    background-color: $color-prim;
-    color:white;
+    background-color: $color-back;
+    // color: white;
     // mix-blend-mode: multiply;
     // height: 50vh;
     // grid-column: 1 / end;
@@ -435,11 +446,9 @@ code {
   and (min-device-width: 813px) 
   and (-webkit-min-device-pixel-ratio: 3), (orientation: landscape) { 
     #vl2, #vl4, #vl6 {display: block}
-    .window {
-        height: 100vh;
-    }
+   
     .footer {
-        position: absolute;
-        top: 100vh;
+        // position: absolute;
+        // top: 100vh;
     }
 }
