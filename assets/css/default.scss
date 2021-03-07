@@ -73,6 +73,7 @@
 // Container provides 6 column grid for content (with two border columns)
 div.window {
     width: 100vw;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1vw repeat(6, 1fr) 1vw;
     border-top: 2vh solid $color-prim;
@@ -136,6 +137,7 @@ div.post, div.page {
 
 div.longtitle {
     margin-top: 15vh;
+    margin-bottom: 5vh;
     width: min(110%, 100vw);
     // align-self: center;
     background-color: $white;
