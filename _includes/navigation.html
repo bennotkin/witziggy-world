@@ -3,9 +3,10 @@
 {% else %}
 <nav> <!-- If error, see https://stackoverflow.com/questions/28932707/check-if-current-page-is-homepage-on-jekyll -->
 {% endif %}
-    {% unless page.url == "/" %} 
+    <div class="navigation">
+    <!-- {% unless page.url == "/" %} 
         {% include logo.html %}
-    {% endunless %}
+    {% endunless %} -->
     {% for item in site.data.navigation %}
         {% unless page.url != "/" and item.link == "/" %}
         {% if page.url == item.link %}
@@ -16,4 +17,7 @@
         </a></p>
         {% endunless %}
     {% endfor %}
+    {% if page.url != "/" %}
+    </div>
+    {% endif %}
 </nav>

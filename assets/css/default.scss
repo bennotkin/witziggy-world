@@ -3,42 +3,42 @@
 // Load sass variables (colors, font stack, etc.)
 @import "variables";
 
-// Load fonts
-@font-face {
-    font-family: 'Wremena';
-    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_regular-webfont.woff2') format('woff2'),
-         url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Wremena';
-    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_bold-webfont.woff2') format('woff2'),
-         url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_bold-webfont.woff') format('woff');
-    font-weight: bolder;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Wremena';
-    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_light-webfont.woff2') format('woff2'),
-         url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_light-webfont.woff') format('woff');
-    font-weight: lighter;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Gangster Grotesk';
-    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff2') format('woff2'),
-         url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Gangster Grotesk';
-    src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff2') format('woff2'),
-         url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff') format('woff');
-    font-weight: lighter;
-    font-style: normal;
-}
+// // Load fonts
+// @font-face {
+//     font-family: 'Wremena';
+//     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_regular-webfont.woff2') format('woff2'),
+//          url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'Wremena';
+//     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_bold-webfont.woff2') format('woff2'),
+//          url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_bold-webfont.woff') format('woff');
+//     font-weight: bolder;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'Wremena';
+//     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_light-webfont.woff2') format('woff2'),
+//          url('https://bennotkin.github.io/webfontkit-20201028-223227/wremena_light-webfont.woff') format('woff');
+//     font-weight: lighter;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'Gangster Grotesk';
+//     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff2') format('woff2'),
+//          url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'Gangster Grotesk';
+//     src: url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff2') format('woff2'),
+//          url('https://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff') format('woff');
+//     font-weight: lighter;
+//     font-style: normal;
+// }
 
 // Everything below is for mobile first; 
 // Media query for wider screens is at bottom.
@@ -60,12 +60,15 @@
 }
 #vl2 {
     left: $outside-margins-narrow + 2*(100vw - $outside-margins-narrow*2)/6;
-    display: none;}
-#vl3 { left: $outside-margins-narrow + 3*(100vw - $outside-margins-narrow*2)/6;}
+}
+#vl3 { left: $outside-margins-narrow + 3*(100vw - $outside-margins-narrow*2)/6;
+    display:none;}
 #vl4 {
     left: $outside-margins-narrow + 4*(100vw - $outside-margins-narrow*2)/6;
-    display: none}
-#vl5 { left: $outside-margins-narrow + 5*(100vw - $outside-margins-narrow*2)/6;}
+    }
+#vl5 { left: $outside-margins-narrow + 5*(100vw - $outside-margins-narrow*2)/6;
+    display: none;
+}
 #vl6 { left: 100-$outside-margins-narrow;
     display: none}
 
@@ -81,21 +84,45 @@ div.window {
     // column-gap: $col-gap; // not active because it seems to prevent grids of contents from matching
 }
 
+// NAVIGATION
 // Navigation bar for default pages (everything besides index)
-nav{
-    grid-column: 1 / span 2;
-    padding: $vertical-margin $col-gap/2 $vertical-margin 0; // top and bottom margins maybe shouldn't be same as vertical margin
-    background-color: $color-back; // alt design is give white background with thick colorful right border
-    // padding-left: 1vw; //calc( {$outside-margins} + 0.6125vw) doesnt calc
-    font-family: $font-stack-sec;
-    text-align: left;
-    display: grid;
-    grid-auto-rows: 2em; // auto-fills rows with set height for nav items
-    grid-template-rows: auto; // pushes nav items to the bottom of the sidebar (gives logo all remaining height)
+// Universal
+
+// On default pages, narrow screen and index
+nav { //move to index.scss?
+    // grid-column: 2 / span 6;
+    position: fixed; // should this be sticky?
+    width: 100vw - 2vw;
+    // left: 1vw;
+    background: none; // are this and background necessary here? as they're the lowest level?
+    padding-left: 0;
+    text-align: center;
+    z-index: 10;
+    padding-right: 0;
 }
-// paragraphs that are immediate children of nav bar
-nav > p {background: none; padding-left: .5ch;}
+div.navigation {
+    height: unset;
+    position: unset;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // column-gap: $col-gap;
+    grid-template-rows: 1fr;
+    align-items: center;
+    grid-auto-rows: unset;
+}
+
+nav {
+    font-family: $font-stack-sec;
+}
 nav a {text-decoration: none; }
+nav div.logo {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+// paragraphs that are immediate children of nav bar (not logo)
+div.navigation > p {background: none; padding-left: .5ch;}
+
 
 // Logo
 div.logo {
@@ -107,6 +134,7 @@ div.logo {
     // typography
     font-family: $font-stack-prim;
     font-weight: lighter;
+    color: $color-sec;
     letter-spacing: .05ch;
     line-height: 1em;
 }
@@ -126,14 +154,15 @@ div.logo p:nth-child(even), .longtitle p:nth-child(even) {
     z-index: 2;
 }
 
-nav div.logo {
-    font-size: 1.4em;
-    margin-bottom: 1em;
-}
-
 div.post, div.page {
+    grid-column: 3 / span 4;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
+
 
 div.longtitle {
     margin-top: 15vh;
@@ -151,14 +180,9 @@ div.page div.longtitle {
     color: $color-sec;
 }
 
+// FONTS
 
-div.post, div.page {
-    grid-column: 4 / span 3;
-    justify-self: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 // should this be in index.scss instead?
@@ -442,15 +466,36 @@ code {
     #vl4 { left: $outside-margins + 4*(100vw - $outside-margins*2)/6;}
     #vl5 { left: $outside-margins + 5*(100vw - $outside-margins*2)/6;}
     #vl6 { left: 100-$outside-margins;}
-}
+//}
 
-@media only screen 
-  and (min-device-width: 813px) 
-  and (-webkit-min-device-pixel-ratio: 3), (orientation: landscape) { 
-    #vl2, #vl4, #vl6 {display: block}
-   
+// @media only screen 
+//   and (min-width: 813px) 
+//   and (-webkit-min-device-pixel-ratio: 3), (orientation: landscape) { 
+    #vl2, #vl3, #vl4, #vl5, #vl6 {display: block}
+    nav{
+        width: unset;
+        grid-column: 1 / span 2;
+        padding: $vertical-margin $col-gap/2 $vertical-margin 0; // top and bottom margins maybe shouldn't be same as vertical margin
+        background-color: $color-back; // alt design is give white background with thick colorful right border
+        // padding-left: 1vw; //calc( {$outside-margins} + 0.6125vw) doesnt calc
+        text-align: left;
+    }
+    
+    div.navigation {
+        height: 90vh;
+        position: sticky;
+        top: 2vh + $vertical-margin;
+        display: grid;
+        grid-auto-rows: 2em; // auto-fills rows with set height for nav items
+        grid-template-rows: auto; // pushes nav items to the bottom of the sidebar (gives logo all remaining height)
+        grid-template-columns: 1fr;
+        align-items: unset;
+    }
     .footer {
         // position: absolute;
         // top: 100vh;
+    }
+    div.post, div.page {
+        grid-column: 4 / span 3;
     }
 }

@@ -67,6 +67,7 @@ defaults:
       layout: "post"
       summary: ""
       author: "Kyle Witzigman"
+      custom-css: "pagePost.css"
   - scope:
       path: "assets/images"
     values:
