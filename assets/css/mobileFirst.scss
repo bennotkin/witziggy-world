@@ -5,7 +5,8 @@
 // LAYOUT
 // html {font-size: 6vw;}
 body {
-    font-size: clamp(6vw, 6vw, 20px);
+    //font-size: clamp(6vw, 6vw, 20px);
+    font-size: 20px;
     margin: 0;
 }
 div.logo {display: none;}

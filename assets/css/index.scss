@@ -150,6 +150,7 @@ span.sec {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: $col-gap;
+        margin-top: 2vh;
         
         div.issueImage {
             grid-column: 1 / span 3;
