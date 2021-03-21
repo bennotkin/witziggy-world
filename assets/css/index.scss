@@ -154,10 +154,12 @@ span.sec {
         div.issueImage {
             grid-column: 1 / span 3;
         }
+        div.issueImage img + hr {display: none;}
         // img {
         //     max-width: 100%;
         //     max-height: 60vh;
         // }
+
         div.postStream {
             grid-column: 2 / span 2;
             background-color: $white;

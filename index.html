@@ -25,6 +25,7 @@ custom-css: "index.css"
                 <img src="assets/images/{{ img.name }}">
             </div>
             {% endfor %}
+            <!-- <hr class="pseudoImage"> -->
             <!-- replace with liquid element for image-->
             <div class="postStream">
                 {% for post in site.categories[category_name] limit: 1 %}
