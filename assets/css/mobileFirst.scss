@@ -277,7 +277,7 @@ div.page div.longtitle {
         display: grid;
     grid-template-columns: 1vw repeat(6, 1fr) 1vw;
     column-gap: $col-gap;
-    width: 100vw;
+    width: calc(100vw - 2ch);
     }
 
     #footerList1 {
