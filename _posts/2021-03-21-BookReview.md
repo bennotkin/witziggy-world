@@ -3,7 +3,7 @@ title: Emergent Strategy - Towards a Green (R)evolution
 date: 2021-03-21
 category: veganism
 layout: post
-longtitle: 
+longtitle: |
     <p>adrienne maree brown</p> 
     <p>WANTS TO STRENGTHEN</p>
     <p><i>just one</i> CONNECTION</p>
