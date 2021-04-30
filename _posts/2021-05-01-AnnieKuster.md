@@ -4,8 +4,8 @@ date: 2021-05-01
 category: Environment - our connection to each other and the world
 layout: post
 longtitle: | 
-    <p>ANNIE KUSTER
-    <i>wants you to</i></p>
+    <p>ANNIE KUSTER</p>
+    <i>wants you to</i>
     <p>PASS THE MIC</p>
 author: Kyle Witzigman
 ---
@@ -37,14 +37,15 @@ The workshops create a space for empathetic listening, story sharing, and learni
 
 “You’d be surprised how powerful it is to simply ask somebody’s story. Validating that it is meaningful and it is purposeful,” she continued. “It sounds very simple, but it is very powerful.”
 
-## The What: Nayaraq Centers the Margins by Building Trust and Widening the Scope of What Storytelling Includes
+## The What
+### Nayaraq Centers the Margins by Building Trust and Widening the Scope of What Storytelling Includes
 She lived in proximity to the communities getting to know them over the summer before working with them longer term.
 
 More recently, Nayaraq Stories focuses on a train-the-trainer model to give community members agency to facilitate workshops. They have worked recently with She is the Universe and their global community circles. Trainers from the Dominican Republic and Brazil are now equipped with the skillset to go into their communities and share Nayaraq Stories’ pedagogy with their respective women’s community groups.
 
 “We really want to take a backseat – to your point of centering the margins – and we call it ‘Passing the Mic’ giving the leverage and voice to those who have never had it before,” Annie said.
 
-## The What: Specific Methodology for Workshops and Context around Feminisms in the Peruvian Andes.
+### Specific Methodology for Workshops and Context around Feminisms in the Peruvian Andes.
 To Annie, feminisms is about choice.
 
 “It’s about giving women the opportunity to choose what type of woman they want to be and what type of feminism they want to embody,” Annie said.
