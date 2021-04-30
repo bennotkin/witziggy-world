@@ -4,7 +4,7 @@ date: 2021-03-22
 layout: post
 longtitle: |
     <p>JESS REDMOND</p>
-    <p><i>is exploring</i>FORMATTED</p>
+    <p><i>is exploring</i></p>
     <p>PHILOSOPHY <i>and</i> VEGANISM</p>
 summary: Jess Redmond on Veganism
 category: Environment - our connection to each other and the world
