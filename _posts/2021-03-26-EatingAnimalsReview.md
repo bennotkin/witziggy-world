@@ -5,9 +5,9 @@ summary: Reviewing Safran Foer's book
 category: Environment - our connection to each other and the world
 layout: post
 longtitle:     
-    <p>adrienne maree brown</p> 
-    <p>WANTS TO STRENGTHEN</p>
-    <p><i>just one</i> CONNECTION</p>
+    <p>JONATHAN SAFRAN FOER <i>wants us</i></p> 
+    <p>TO UNDERSTAND <i>where</i></p>
+    <p><i>our<i/> FOOD <i>comes from</i></p>
 ---
 
 In January of this year, I went on an adventure - as much as an adventure as can be had in a pandemic and the suburbs of Arkansas: I decided to try vegeterianism.
