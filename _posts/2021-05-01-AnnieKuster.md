@@ -5,7 +5,7 @@ category: Environment - our connection to each other and the world
 layout: post
 longtitle: | 
     <p>ANNIE KUSTER</p>
-    <i>wants you to</i>
+    <p><i>wants you to</i></p>
     <p>PASS THE MIC</p>
 author: Kyle Witzigman
 ---
