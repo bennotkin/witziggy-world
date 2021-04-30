@@ -4,9 +4,8 @@ date: 2021-05-01
 category: Environment - our connection to each other and the world
 layout: post
 longtitle: | 
-    <p>ANNIE KUSTER</p>
-    <p><i>wants you to</i></p>
-    <p>PASS THE MIC</p>
+    <p>ANNIE KUSTER <i>wants</i></p>
+    <p><i>you to</i> PASS THE MIC</p>
 author: Kyle Witzigman
 ---
 
