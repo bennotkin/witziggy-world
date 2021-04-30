@@ -1,6 +1,6 @@
 ---
-title: Jess Redmond on Veganism and Philosophy
-date: 2021-01-12
+title: Jess Redmond Explores Veganism and Philosophy
+date: 2021-03-22
 layout: post
 longtitle: |
     <p>JESS REDMOND</p>
