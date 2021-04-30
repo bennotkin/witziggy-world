@@ -11,9 +11,7 @@ author: Kyle Witzigman
 
 Annie Kuster shares how gender studies and a Quechan professor led to her creation of [Nayaraq Stories] (https://nayaraqstories.com/) – a storytelling and feminisms empowerment workshop series that centers marginalized voices in the Peruvian Andes. This conversation asked the female question, centered margins, and recognized intersectionality and the uniqueness inherent in each lived experience.
 
-Listen to the entire [podcast episode here.] (https://drive.google.com/file/d/1FxMa_ABtjGqydvI36FQT4WF3JjSAxtN_/view?usp=sharing)
-
-Comments below lightly edited for clarity.
+Listen to the entire [podcast episode here.] (https://drive.google.com/file/d/1FxMa_ABtjGqydvI36FQT4WF3JjSAxtN_/view?usp=sharing) A summary of the conversation is provided below.
 
 ## The Why: A Passion for Empowering Others
 
