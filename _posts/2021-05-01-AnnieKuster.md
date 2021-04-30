@@ -21,7 +21,11 @@ Annie explained that she first took a course on Andean women with a professor wh
 “Number One: A lot of these women saw themselves as mothers, which is very beautiful in some ways and very different than how I was trying to portray them as this young person with all these hopes, dreams, and goals,” Annie said. “Two, they had these really strong stories and wisdom from their experiences that they had never shared before, because nobody had thought to ask them.”
 
 ```
-“You’d be surprised how powerful it is to simply ask somebody’s story. Validating that it is meaningful and it is purposeful." - Annie Kuster
+“You’d be surprised how powerful it is to 
+simply ask somebody’s story. Validating that 
+it is meaningful and it is purposeful."
+
+- Annie Kuster
 ```
 
 That summer sparked Annie’s interest in the ethical responsibility of storytelling.
@@ -45,7 +49,7 @@ More recently, Nayaraq Stories focuses on a train-the-trainer model to give comm
 
 “We really want to take a backseat – to your point of centering the margins – and we call it ‘Passing the Mic’ giving the leverage and voice to those who have never had it before,” Annie said.
 
-### Specific Methodology for Workshops and Context around Feminisms in the Peruvian Andes.
+### Nayaraq Contextualizes Storytelling Methodology and Approaches for Feminisms in Different Regions
 To Annie, feminisms is about choice.
 
 “It’s about giving women the opportunity to choose what type of woman they want to be and what type of feminism they want to embody,” Annie said.
