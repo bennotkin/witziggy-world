@@ -2,7 +2,7 @@
 title: Emergent Strategy - Towards a Green (R)evolution
 date: 2021-03-21
 summary: Reviewing adrienne maree brown's work
-category: veganism
+category: Environment - our connection to each other and the world
 layout: post
 longtitle:     
     <p>adrienne maree brown</p> 

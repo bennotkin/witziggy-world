@@ -1,7 +1,7 @@
 ---
 title: Annie Kuster Wants you to Pass the Mic
 date: 2021-05-01
-category: veganism
+category: Environment - our connection to each other and the world
 layout: post
 longtitle: | 
     <p>ANNIE KUSTER
