@@ -6,7 +6,7 @@ category: Environment - our connection to each other and the world
 layout: post
 longtitle:     
     <p>JONATHAN SAFRAN FOER <i>wants us</i></p> 
-    <p>TO UNDERSTAND <i>where</i></p>
+    <p><i>to</i> UNDERSTAND <i>where</i></p>
     <p><i>our<i/> FOOD <i>comes from</i></p>
 ---
 
@@ -14,7 +14,7 @@ In January of this year, I went on an adventure - as much as an adventure as can
 
 My experience was less internal and more external. When I spoke about trying vegetarianism, people's reactions around me signaled shame or guilt. I heard lines on "I'm trying to eat less meat" or "We only eat out once every few days" to "We've thought about composting more of our food that is leftover." No person was commenting on the relative good sides of either decision to eat meat or not. Rather, it seemed external forces had already pre-determined that this conversation would consist wholly of guilt, shaming, and blaming.
 
-Enter <i>Eating Animals</i>.
+Enter: [Eating Animals](https://www.amazon.com/dp/B00FOR2OJO/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
 
 Safran Foer's work explores the arguments for both sides empathetically. With anecdotes and wit, he asks why he can look at his dog and see a friend, but look at a chicken or pig and see food. What philosophical arguments draw the line of different communities' interpretations on what goes on the table and what gets fed under the table?
 
