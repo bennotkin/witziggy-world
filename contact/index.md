@@ -2,4 +2,6 @@
 title: Contact
 layout: page
 ---
-This is the contact page. It could also be an about page. It could have form for contacting you, or it could have an email. It could have a subscribe link and all your socials.
+The Witziggy World subscription and email are currently under construction.
+
+Please contact me at kyle.witzigman@gmail.com in the meantime.
