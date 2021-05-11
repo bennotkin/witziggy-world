@@ -4,7 +4,7 @@
 <nav> <!-- If error, see https://stackoverflow.com/questions/28932707/check-if-current-page-is-homepage-on-jekyll -->
 {% endif %}
     <div class="navigation">
-    <!-- {% unless page.url == "/" %} 
+    <!-- {% unless page.url == "/" %} Removing for now for mobile first, maybe add in again and hide it in mobile
         {% include logo.html %}
     {% endunless %} -->
     {% for item in site.data.navigation %}
