@@ -16,7 +16,7 @@ custom-css: "index.css"
 </div>
 <div class="homeRight">
     {% assign image_files = site.static_files | where: "image", true %}
-    {% for category in site.categories %}
+    {% for category in site.categories reversed %}
         <!-- <div class="archive-group"> -->
             {% capture category_name %}{{ category | first }}{% endcapture %}
             {% assign issueImage = image_files | where: "basename", category_name %}
