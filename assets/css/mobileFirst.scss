@@ -275,9 +275,10 @@ div.page div.longtitle {
 
     .footer {
         display: grid;
-    grid-template-columns: 1vw repeat(6, 1fr) 1vw;
-    column-gap: $col-gap;
-    width: calc(100vw - 2ch);
+        grid-template-columns: 1vw repeat(6, 1fr) 1vw;
+        column-gap: $col-gap;
+        width: calc(100vw - 2ch);
+        padding: inherit 0;
     }
 
     #footerList1 {
