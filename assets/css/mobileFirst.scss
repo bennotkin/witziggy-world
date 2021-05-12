@@ -84,7 +84,7 @@ nav {
         min-width: 100vw;
         justify-content: space-around;
         align-items: center;
-        overflow-x: scroll;
+        overflow-x: auto;
         // padding-left: 1.5ch;
     }
     p {
@@ -188,7 +188,7 @@ pre.highlight {
     background-color: $color-back;
     border-radius: .5ch;
     padding: 1ch;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 // Specific divs
@@ -277,8 +277,9 @@ div.page div.longtitle {
         display: grid;
         grid-template-columns: 1vw repeat(6, 1fr) 1vw;
         column-gap: $col-gap;
-        width: calc(100vw - 2ch);
-        padding: inherit 0;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     #footerList1 {
