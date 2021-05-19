@@ -12,7 +12,7 @@ longtitle:
 
 Emergent Strategy: Towards a Green (R)evolution
 
-In emergent strategy: shaping change, changing worlds, Brown writes that ‘emergent strategies’ are ways for humans to practice complexity and grow the future through relatively simple interactions. To Brown, how we are at the small scale is how we are at the large scale.
+In [emergent strategy: shaping change, changing worlds](https://www.amazon.com/dp/B06XFP9MMC/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1), Brown writes that ‘emergent strategies’ are ways for humans to practice complexity and grow the future through relatively simple interactions. To Brown, how we are at the small scale is how we are at the large scale.
 
 Brown reflects on how the planet, society, and self can use a reframe to collaborate and grow in a healthy way.
 
