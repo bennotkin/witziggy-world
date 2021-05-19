@@ -7,7 +7,7 @@ layout: post
 longtitle:     
     <p>JONATHAN SAFRAN FOER <i>wants us</i></p> 
     <p><i>to</i> UNDERSTAND <i>where</i></p>
-    <p><i>our<i/> FOOD <i>comes from</i></p>
+    <p><i>our</i> FOOD <i>comes from</i></p>
 ---
 
 In January of this year, I went on an adventure - as much as an adventure as can be had in a pandemic and the suburbs of Arkansas: I decided to try vegeterianism.
