@@ -20,14 +20,14 @@ div.window {width: 100%;}
     padding-top: 0;
 }
 
-.homeRight img { //potentially make universal
-    max-width: 100%;
-    max-height: 80vh;
-}
-div.postStream {margin-bottom: 2em;}
-// div.postStream:last-child {
-//     padding-bottom: 2em;
+// .homeRight img { //potentially make universal
+//     max-width: 100%;
+//     max-height: 80vh;
 // }
+// div.postStream {margin-bottom: 2em;}
+// // div.postStream:last-child {
+// //     padding-bottom: 2em;
+// // }
 
 .footer {
     padding: .5ch 1ch 2em 1ch;
@@ -68,7 +68,7 @@ div.logo {
     // padding-right: 0;
     padding-top: 1em;
     color: $color-sec;
-    // letter-spacing: 0.25ch;
+    letter-spacing: 0.125ch;
     margin: 0 auto;
     p {
         line-height: .8em;
@@ -98,34 +98,34 @@ div.homeLeft p {
     font-weight: lighter;
 }
 
-div.postStream h1 {
-    font-family: $font-stack-prim;
-    font-size: 1.4em;
-    // font-weight: normal;
-    border-bottom: 1px solid black;
-    text-transform: uppercase;
-}
-div.postStream h4 {
-    font-family: $font-stack-prim;
-    // color: $color-grey;
-}
-div.postStream:nth-child(2n) h1 {
-    color: $color-prim;
-}
-div.postStream:nth-child(4n) h1 {
-    color: $color-sec;
-}
-// Define the "season font" (e.g. Fall 2021)
-span.sec {
-    font-family: $font-stack-sec;
-    color:$color-grey;
-    font-style: normal;
-    font-size: 0.75em;
-    text-transform: none;
-}
-.postStream a {
-    text-decoration: none;
-}
+// div.postStream h1 {
+//     font-family: $font-stack-prim;
+//     font-size: 1.4em;
+//     // font-weight: normal;
+//     border-bottom: 1px solid black;
+//     text-transform: uppercase;
+// }
+// div.postStream h4 {
+//     font-family: $font-stack-prim;
+//     // color: $color-grey;
+// }
+// div.postStream:nth-child(2n) h1 {
+//     color: $color-prim;
+// }
+// div.postStream:nth-child(4n) h1 {
+//     color: $color-sec;
+// }
+// // Define the "season font" (e.g. Fall 2021)
+// span.sec {
+//     font-family: $font-stack-sec;
+//     color:$color-grey;
+//     font-style: normal;
+//     font-size: 0.75em;
+//     text-transform: none;
+// }
+// .postStream a {
+//     text-decoration: none;
+// }
 
 
 // @media (aspect-ratio: landscape) {

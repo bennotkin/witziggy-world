@@ -1,7 +1,7 @@
 ---
 title: Annie Kuster Wants you to Pass the Mic
 date: 2021-03-31
-category: Environment - our connection to each other and the world
+category: environment
 layout: post
 longtitle: | 
     <p>ANNIE KUSTER <i>wants</i></p>

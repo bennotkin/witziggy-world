@@ -6,6 +6,6 @@ longtitle: |
     <p>JESS REDMOND <i>is exploring</i></p>
     <p>PHILOSOPHY <i>and</i> VEGANISM</p>
 summary: Jess Redmond on Veganism
-category: Environment - our connection to each other and the world
+category: environment
 ---
 A conversation with Jess Redmond will be posted soon.

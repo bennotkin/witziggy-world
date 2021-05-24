@@ -7,6 +7,6 @@ longtitle: |
     <p>CLIMATE ACTION</p>
     <p><i>inside and outside</i> POLITICS</p>
 summary: Jess Redmond on Veganism
-category: Environment - our connection to each other and the world
+category: environment
 ---
 A conversation with Raven Graf will be posted soon.
