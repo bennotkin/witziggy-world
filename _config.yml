@@ -72,3 +72,8 @@ defaults:
       path: "assets/images"
     values:
       image: true
+  - scope:
+      path: "issue"
+      type: "page"
+    values:
+      layout: "issue"
