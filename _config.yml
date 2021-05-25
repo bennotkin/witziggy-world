@@ -74,6 +74,6 @@ defaults:
       image: true
   - scope:
       path: "issue"
-      type: "page"
+      type: "pages"
     values:
       layout: "issue"
