@@ -4,13 +4,13 @@ date: 2021-03-22
 layout: post
 longtitle: |
     <p>JESS REDMOND <i>is exploring</i></p>
-    <p>PHILOSOPHY <i>and</i> VEGANISM</p>
+    <p>VEGANISM <i>and</i> PHILOSOPHY</p>
 summary: Jess Redmond on Veganism
 category: environment
 author: Kyle Witzigman
 ---
 
-<i>[Jess Redmond](https://www.linkedin.com/in/jessica-redmond-5ab095191/) shares their personal journey to vegetarianism and veganism, ways in which we can all be more intentional with what ends up on our plates, and how we can make veganism accessible to people across the socio-economic spectrum.</i>
+<i>[Jess Redmond](https://www.linkedin.com/in/jessica-redmond-5ab095191/) - an ecomonist and philosopher - shares their personal journey to vegetarianism and veganism, ways in which we can all be more intentional about what ends up on our dinner plates, and how we can make veganism accessible to people across the socio-economic spectrum. </i>
 
 ## Podcast
 Listen to the [entire podcast episode here.](https://drive.google.com/file/d/1V1BwAP8pcWZQ5iTBNZuc-qgMJp0g2YJy/view?usp=sharing) A summary of the conversation is provided below.
