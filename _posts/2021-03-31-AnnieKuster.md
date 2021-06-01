@@ -19,13 +19,9 @@ Annie explained that she first took a course on Andean women with a professor wh
 
 “Number One: A lot of these women saw themselves as mothers, which is very beautiful in some ways and very different than how I was trying to portray them as this young person with all these hopes, dreams, and goals,” Annie said. “Two, they had these really strong stories and wisdom from their experiences that they had never shared before, because nobody had thought to ask them.”
 
-```
-“You’d be surprised how powerful it is to 
+> “You’d be surprised how powerful it is to 
 simply ask somebody’s story. Validating that 
-it is meaningful and it is purposeful."
-
-- Annie Kuster
-```
+it is meaningful and it is purposeful." - Annie Kuster
 
 That summer sparked Annie’s interest in the ethical responsibility of storytelling.
 
