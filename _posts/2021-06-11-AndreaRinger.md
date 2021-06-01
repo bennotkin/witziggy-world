@@ -1,7 +1,9 @@
 ---
-title: Post 1
-date: 2021-07-01
-summary: A wee description of the post
-category: Housing (coming this summer)
+title: A Conversation with Andrea Ringer
+date: 2021-06-11
+summary: Andrea Ringer Conversation
+category: housing
 layout: post
+author: Kyle Witzigman
 ---
+
