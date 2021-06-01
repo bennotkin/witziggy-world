@@ -8,6 +8,7 @@ longtitle:
     <p>adrienne maree brown</p> 
     <p>WANTS TO STRENGTHEN</p>
     <p><i>just one</i> CONNECTION</p>
+author: Kyle Witzigman
 ---
 
 Emergent Strategy: Towards a Green (R)evolution
