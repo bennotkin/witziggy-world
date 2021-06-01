@@ -9,26 +9,59 @@ longtitle: |
 summary: Raven Graf on Climate Legislation
 category: environment
 ---
-<i>[Raven Graf](https://www.linkedin.com/in/raven-graf-337507132/) shares XYZ </i>
+<i>[Raven Graf](https://www.linkedin.com/in/raven-graf-337507132/) (they/them) is an activist, volunteer for the [Citizens' Climate Lobby](https://citizensclimatelobby.org/), board member of [Our Climate](https://ourclimate.us/), and recipient of the Switzer Fellowship. They graduated from Swarthmore College with degrees in biology and chemistry and received a Master in Public Policy from Harvard Kennedy School of Government.
+
+In this conversation, they describe our current climate challenges and advocate for climate legislation to change the world's current climate trajectory.</i>
 
 ## Podcast
-Listen to the [entire podcast episode here.](https://drive.google.com/file/d/13Ayynp5zD6OtHOm5tmKjsykLhpN-lZhO/view?usp=sharing) A summary of the conversation is provided below.
+Listen to the [entire podcast episode here.](https://drive.google.com/file/d/13Ayynp5zD6OtHOm5tmKjsykLhpN-lZhO/view?usp=sharing) 
 
-## Climate Legislation in Context
-In college, Raven...
+<i>A summary of the conversation is provided below.</i>
+
+## Climate Trajectory in Context
+Raven illustrated how our challenges with climate range from rising temperatures and heat concerns to famine, drought, and sea level risings leading to floods in coastal communities. Current assumptions about the climate from the Middle East and North Africa to the American Southwest in Texas show that volatile weather changes can wreak havock in unprepared communities, they explained.
+
+Climate change is going to mean food and water scarcity, conflicts over the remaining resources. All of those are going to cause mass displacement of communities in order of magnitude larger than current refugee flows, Raven continued. They concluded that to avoid the worst impacts, we must act now.
+
+Additionally, they caveated that climate action should be undertaken with a range of changes - fixing democracy, building a racially just society, improving healthcare, repairing education, and managing a pandemic response. Framing climate as the biggest or most important, Raven said, there's always an implication that other work is less important.
+
+> "We have to tackle all these crises at the same time, and they don't have to be in competition... Solving any of one of these problems can help achieve progress in all of them," Raven Graf
+
+## Urgent Action Now:
+### The climate landscape
+In addition to heat events, Raven described other effects from climate change: Ocean acidification, mass extinction of species, plagues contained in animals that are melting from permafrost.
+
+### The political landscape
+The Biden Administration has released a social cost of carbon to frame the tradeoff of costs and benefits of changing from carbon. It might not be the best use of inordinate amount of resources
+
+Social cost of carbon is one way of framing the tradeoff.
+
+Zero carbon alternatives could be cost-competitive.
+
+There is a whole lot of assumptions in social cost of carbon calculations, Raven warned. The <i>discount rate</i> of what we care about happening tomorrow versus twenty years and its impact on climate change and how we relate that to GDP and economic well being is based on a certain set of calculations.
+
+Even with the assumptions present, Raven insists we still know we need to mitigate environmental impacts from our production and consumption. They explained that there is a generally agreed upon figure - 2 degree celsius of warming - that we need to keep our planet under to mitigate the worst effects of climate change.
+
+### Dramatically Transform Five Systems
+Electricity
+Transportation
+Heating and Cooling
+Industrial
+Food
+
+These interact in complicated ways, Raven acknowledged, but they offered a direct two-step approach to reducing our environmental concerns. Step one: Decarbonize electricity. Step two: Electrify everything. 
+
+Cars should become electric. Heat pumps need to switch to electricity from fossil fuels. We can build a carbon-free economy.
+
+At one level, conceptual, but in another it becomes practical and more difficult to implement. Raven explained that 700 policies have been identified to stem climate disaster in the United States.
+
+## Taking Action
+
+### Systems level
 
 
-## Title 2 from Question 2
+### Personal level
 
 
-
-
-## Title 3 from Question 3
-### Subtitle if any
-
-
-
-### Subtitle if any
-
-
-## Title 4 from Question 4 
+## Further Reading
+- Bill Moyer, [Doing Democracy: The MAP Model for Social Organizing](https://www.amazon.com/Doing-Democracy-Organizing-Social-Movements/dp/0865714185/ref=asc_df_0865714185/?tag=hyprod-20&linkCode=df0&hvadid=312021238077&hvpos=&hvnetw=g&hvrand=4890988665961560017&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9026089&hvtargid=pla-569580675720&psc=1)
