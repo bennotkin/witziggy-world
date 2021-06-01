@@ -19,8 +19,9 @@ custom-css: "index.css"
     {% for category in site.categories reversed %}
         <!-- <div class="archive-group"> -->
             {% capture category_name %}{{ category | first }}{% endcapture %}
+            <!-- Collect long version of issue name --> {% assign issueName = site.pages | where: "category", category_name | map: "issueName" %}
             {% assign issueImage = image_files | where: "basename", category_name %}
-            {% for img in issueImage limit: 1 %}                
+            {% for img in issueImage limit: 1 %}       
             <div class="issueImage">
                 <img src="assets/images/{{ img.name }}">
             </div>
@@ -29,7 +30,8 @@ custom-css: "index.css"
             <!-- replace with liquid element for image-->
             <div class="postStream">
                 {% for post in site.categories[category_name] limit: 1 %}
-                <h1><span class="sec">{{ post.date | date: "%B %Y"}}</span> {{ category_name }}</h1>
+                <!-- Date is currently set to the date of the first issue post; could be changed to be manually set in category page.  -->
+                <h1><a href="{{ site.url }}/issue/{{ category_name }}"><span class="sec">{{ post.date | date: "%B %Y"}}</span> {{ issueName }}</a></h1>
                 {% endfor %}
                 {% for post in site.categories[category_name] %}
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>

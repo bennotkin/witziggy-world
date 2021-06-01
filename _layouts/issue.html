@@ -1,0 +1,27 @@
+---
+layout: page
+---
+<div class="issueBox">
+    {% assign image_files = site.static_files | where: "image", true %}
+        <!-- <div class="archive-group"> -->
+            {% assign issueImage = image_files | where: "basename", page.category %}
+            {% for img in issueImage limit: 1 %}                
+            <div class="issueImage">
+                <img src="{{ site.url }}/assets/images/{{ img.name }}">
+            </div>
+            {% endfor %}
+            <!-- <hr class="pseudoImage"> -->
+            <!-- replace with liquid element for image-->
+            <div class="postStream">
+                {% for post in site.categories[page.category] limit: 1 %}
+                <h1><span class="sec">{{ post.date | date: "%B %Y"}}</span> {{ page.issueName }}</h1>
+                {% endfor %}
+                {% for post in site.categories[page.category] %}
+                <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+                <!-- if we want post excerpts --> <!--<p>post.excerpt</p> -->
+                <!-- <p>post.excerpt</p> -->
+                <!-- </article> -->
+                {% endfor %}
+            </div>
+
+</div>

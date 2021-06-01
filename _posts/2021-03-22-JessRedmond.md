@@ -6,8 +6,7 @@ longtitle: |
     <p>JESS REDMOND <i>is exploring</i></p>
     <p>PHILOSOPHY <i>and</i> VEGANISM</p>
 summary: Jess Redmond on Veganism
-category: Environment - our connection to each other and the world
-author: Kyle Witzigman
+category: environment
 ---
 
 <i>[Jess Redmond](https://www.linkedin.com/in/jessica-redmond-5ab095191/) shares their personal journey to vegetarianism and veganism, ways in which we can all be more intentional with what ends up on our plates, and how we can make veganism accessible to people across the socio-economic spectrum.</i>

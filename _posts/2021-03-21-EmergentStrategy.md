@@ -2,7 +2,7 @@
 title: Reviewing 'Emergent Strategy'
 date: 2021-03-21
 summary: Reviewing adrienne maree brown's work
-category: Environment - our connection to each other and the world
+category: environment
 layout: post
 longtitle:     
     <p>adrienne maree brown</p> 

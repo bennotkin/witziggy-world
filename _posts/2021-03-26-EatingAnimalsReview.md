@@ -2,7 +2,7 @@
 title: Reviewing 'Eating Animals' by Jonathan Safran Foer
 date: 2021-03-26
 summary: Reviewing Safran Foer's book
-category: Environment - our connection to each other and the world
+category: environment
 layout: post
 longtitle:     
     <p>JONATHAN SAFRAN FOER <i>wants us</i></p> 

@@ -443,6 +443,59 @@ code {
 // }
 
 
+// Category lits / postStream (Index and category pages)
+
+div.categoryBox{
+    // grid-column: 5 / span 3;
+    // grid-row: 1 / span 1;
+    // width: unset;
+    // padding-left: $col-gap/2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: $col-gap;
+    // margin-top: 2vh;
+    
+    div.issueImage {
+        grid-column: 1 / span 3;
+    }
+}
+
+.issueImage img { //potentially make universal
+    max-width: 100%;
+    max-height: 20vh;//80vh;
+}
+div.postStream {margin-bottom: 2em;}
+
+div.postStream h1 {
+    font-family: $font-stack-prim;
+    font-size: 1.4em;
+    // font-weight: normal;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+div.postStream h4 {
+    font-family: $font-stack-prim;
+    // color: $color-grey;
+}
+div.postStream:nth-child(2n) h1 {
+    color: $color-prim;
+}
+div.postStream:nth-child(4n) h1 {
+    color: $color-sec;
+}
+// Define the "season font" (e.g. Fall 2021)
+span.sec {
+    font-family: $font-stack-sec;
+    color:$color-grey;
+    font-style: normal;
+    font-size: 0.75em;
+    text-transform: none;
+}
+.postStream a {
+    text-decoration: none;
+}
+
+
 
 // move all media queries to the end
 @media (min-width: 850px) {
