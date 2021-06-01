@@ -58,15 +58,13 @@ On a broad level, Raven supports social activism.
 
 Raven described Bill Moyer's work on Doing Democracy to illustrate different roles in which people coordinate to create social change: People who help, people who advocate for change in power structures, people who rebel to highlight the urgency and current crisis, and people who organize and makes information digestible and accessible to the broader public. Raven explained that all four roles are needed in a movement, but they often are not coordinated.
 
-"We can all find our niche in that broader system and support others who are taking different strategies," Raven said.
-
 > "Social movements have an enormous ability to change the landscape on which elected officials are acting."
 
-At a personal level, Raven urged us to find local community groups making change. They believe a beauty in broader social movements is plugging into local organizations and build relationships. On a national level, there are groups that have chapters throughout the country you can get involved in.
+At a personal level, Raven urged us to find local community groups making change. They believe a beautiful aspect of the broader social movements is plugging into local organizations and build relationships. On a national level, there are groups that have chapters throughout the country you can get involved in.
 
 For Raven, social movement mobilization may be the way forward to mitigate climate disaster.
 
-"This is where the fun part comes in," Raven said.
+"We can all find our niche in that broader system and support others who are taking different strategies," Raven said. "This is where the fun part comes in."
 
 ### Further Reading
 - Bill Moyer, [Doing Democracy: The MAP Model for Social Organizing](https://www.amazon.com/Doing-Democracy-Organizing-Social-Movements/dp/0865714185/ref=asc_df_0865714185/?tag=hyprod-20&linkCode=df0&hvadid=312021238077&hvpos=&hvnetw=g&hvrand=4890988665961560017&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9026089&hvtargid=pla-569580675720&psc=1)
