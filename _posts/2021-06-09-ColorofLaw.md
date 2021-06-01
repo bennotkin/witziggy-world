@@ -1,5 +1,5 @@
 ---
-title: Reviewing 'The Color of Law' by Richard Rothstein
+title: Reviewing 'The Color of Law' by Richard Rothstein (coming soon)
 date: 2021-06-09
 summary: Reviewing Rothstein's book
 category: housing
