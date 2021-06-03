@@ -33,7 +33,7 @@ They said that we should work to be our best moral selves but there is room for 
 
 "People can make their own choices in what they choose to prioritize," Jess said. "I can respect that for some that is not the case, and people's situations are different."
 
-The standards we set for ourselves are personal journeys, Jess believes. Setting the example of being a vegan is one way Jess explore their own pursuit of living a moral life. Jess said to think about how we can make small changes for greater impact. They recommended doing a meatless Monday as an example to make small changes. 
+The standards we set for ourselves are personal journeys, Jess believes. Setting the example of being a vegan is one way Jess explores their own pursuit of living a moral life. Jess said to think about how we can make small changes for greater impact. They recommended doing a meatless Monday as a way to make small changes. 
 
 "Surely there's something we can each do," Jess said.
 
