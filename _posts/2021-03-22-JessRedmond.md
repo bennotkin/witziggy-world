@@ -16,7 +16,7 @@ author: Kyle Witzigman
 Listen to the [entire podcast episode here.](https://drive.google.com/file/d/1V1BwAP8pcWZQ5iTBNZuc-qgMJp0g2YJy/view?usp=sharing) A summary of the conversation is provided below.
 
 ## Step One: Vegetarian. Step Two: Vegan.
-Jess became a vegetarian after taking an ethics course in her undergraduate studies. From Aristotle to Kant, Jess applied western political theory to animal rights. Their professor was a student of Peter Singer who wrote the utilitarian argument for animal rights. Jess asked why humankind ignores animals' interiority, their ability for feeling, emotion, and self-conception. 
+Jess became a vegetarian after taking an ethics course in her undergraduate studies. From Aristotle to Kant, Jess applied western political theory to animal rights. Their professor was a student of Peter Singer who wrote the utilitarian argument for animal rights. Jess asked why humankind ignores animals' <i>interiority</i>, the ability for feeling, emotion, and self-conception. 
 
 Overtime, they became more cognizant of meat-eating and became vegetarian. 
 
