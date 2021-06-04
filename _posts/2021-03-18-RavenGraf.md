@@ -14,7 +14,8 @@ category: environment
 <i>In this conversation, they describe our current climate challenges and advocate for climate legislation to change the world's current climate trajectory.</i>
 
 ## Podcast
-Listen to the [entire podcast episode here.](https://drive.google.com/file/d/13Ayynp5zD6OtHOm5tmKjsykLhpN-lZhO/view?usp=sharing) 
+<div id="buzzsprout-player-8644724"></div>
+<script src="https://www.buzzsprout.com/1795888/8644724-1-raven-graf-wants-to-pass-climate-legislation-now.js?container_id=buzzsprout-player-8644724&player=small" type="text/javascript" charset="utf-8"></script>
 
 <i>A summary of the conversation is provided below.</i>
 

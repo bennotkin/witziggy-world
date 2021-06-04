@@ -10,10 +10,15 @@ category: environment
 author: Kyle Witzigman
 ---
 
-<i>[Jess Redmond](https://www.linkedin.com/in/jessica-redmond-5ab095191/) - an ecomonist and philosopher - shares their personal journey to vegetarianism and veganism, ways in which we can all be more intentional about what ends up on our dinner plates, and how we can make veganism accessible to people across the socio-economic spectrum. </i>
+<i>[Jess Redmond](https://www.linkedin.com/in/jessica-redmond-5ab095191/) is an ecomonist and philosopher with experience at the Bank of England and a fellow with Year Here, which provides a full-time postgraduate course in London designed to cultivate entrepreneurial approaches to entrenched social problems. They received their undergraduate degree in philosophy, politics, and economics from Durham University in England and are pursuing a Master in Public Policy at Harvard Kennedy School of Government.</i>
+
+<i>They share their personal journey to vegetarianism and veganism, ways in which we can all be more intentional about what ends up on our dinner plates, and how we can make veganism accessible to people across the socio-economic spectrum.</i>
 
 ## Podcast
-Listen to the [entire podcast episode here.](https://drive.google.com/file/d/1V1BwAP8pcWZQ5iTBNZuc-qgMJp0g2YJy/view?usp=sharing) A summary of the conversation is provided below.
+<div id="buzzsprout-player-8644736"></div>
+<script src="https://www.buzzsprout.com/1795888/8644736-2-jess-redmond-explores-veganism-and-philosophy.js?container_id=buzzsprout-player-8644736&player=small" type="text/javascript" charset="utf-8"></script>
+
+A summary of the conversation is provided below.
 
 ## Step One: Vegetarian. Step Two: Vegan.
 Jess became a vegetarian after taking an ethics course in her undergraduate studies. From Aristotle to Kant, Jess applied western political theory to animal rights. Their professor was a student of Peter Singer who wrote the utilitarian argument for animal rights. Jess asked why humankind ignores animals' <i>interiority</i>, the ability for feeling, emotion, and self-conception. 
