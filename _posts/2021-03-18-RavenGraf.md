@@ -9,10 +9,6 @@ longtitle: |
 summary: Raven Graf on Climate Legislation
 category: environment
 ---
-<i>[Raven Graf](https://www.linkedin.com/in/raven-graf-337507132/) (they/them) is an activist, volunteer for the [Citizens' Climate Lobby](https://citizensclimatelobby.org/), board member of [Our Climate](https://ourclimate.us/), and recipient of the Switzer Fellowship. They graduated from Swarthmore College with degrees in biology and chemistry and received a Master in Public Policy from Harvard Kennedy School of Government.</i>
-
-<i>In this conversation, they describe our current climate challenges and advocate for climate legislation to change the world's current climate trajectory.</i>
-
 ## Podcast
 <div id="buzzsprout-player-8644724"></div>
 <script src="https://www.buzzsprout.com/1795888/8644724-1-raven-graf-wants-to-pass-climate-legislation-now.js?container_id=buzzsprout-player-8644724&player=small" type="text/javascript" charset="utf-8"></script>

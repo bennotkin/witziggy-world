@@ -8,9 +8,6 @@ longtitle: |
     <p><i>you to</i> PASS THE MIC</p>
 author: Kyle Witzigman
 ---
-
-<i>[Annie Kuster](https://www.linkedin.com/in/annie-kuster/) shares how gender studies and a Quechan professor led to her creation of [Nayaraq Stories](https://nayaraqstories.com/) – a storytelling and feminisms empowerment workshop series that centers marginalized voices in the Peruvian Andes. This conversation asked the female question, centered margins, and recognized intersectionality and the uniqueness inherent in each lived experience.</i>
-
 ## Podcast
 <div id="buzzsprout-player-8644765"></div>
 <script src="https://www.buzzsprout.com/1795888/8644765-3-annie-kuster-wants-you-to-pass-the-mic.js?container_id=buzzsprout-player-8644765&player=small" type="text/javascript" charset="utf-8"></script>
