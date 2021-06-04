@@ -13,7 +13,7 @@ author: Kyle Witzigman
 <div id="buzzsprout-player-8644736"></div>
 <script src="https://www.buzzsprout.com/1795888/8644736-2-jess-redmond-explores-veganism-and-philosophy.js?container_id=buzzsprout-player-8644736&player=small" type="text/javascript" charset="utf-8"></script>
 
-A summary of the conversation is provided below.
+# A summary of the conversation is provided below.
 
 ## Step One: Vegetarian. Step Two: Vegan.
 Jess became a vegetarian after taking an ethics course in her undergraduate studies. From Aristotle to Kant, Jess applied western political theory to animal rights. Their professor was a student of Peter Singer who wrote the utilitarian argument for animal rights. Jess asked why humankind ignores animals' <i>interiority</i>, the ability for feeling, emotion, and self-conception. 

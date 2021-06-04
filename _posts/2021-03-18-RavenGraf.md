@@ -13,7 +13,7 @@ category: environment
 <div id="buzzsprout-player-8644724"></div>
 <script src="https://www.buzzsprout.com/1795888/8644724-1-raven-graf-wants-to-pass-climate-legislation-now.js?container_id=buzzsprout-player-8644724&player=small" type="text/javascript" charset="utf-8"></script>
 
-<i>A summary of the conversation is provided below.</i>
+# A summary of the conversation is provided below.
 
 ## Climate Trajectory in Context
 Raven illustrated how climate challenges range from rising temperatures and heat concerns to famine, drought, and floods. Climate assumptions from the Middle East and North Africa to the American Southwest in Texas indicate that the slightest volatility in weather can wreak havock in unprepared communities, they explained. Climate change is going to mean food and water scarcity and conflicts over the remaining resources.

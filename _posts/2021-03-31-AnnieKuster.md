@@ -12,7 +12,7 @@ author: Kyle Witzigman
 <div id="buzzsprout-player-8644765"></div>
 <script src="https://www.buzzsprout.com/1795888/8644765-3-annie-kuster-wants-you-to-pass-the-mic.js?container_id=buzzsprout-player-8644765&player=small" type="text/javascript" charset="utf-8"></script>
 
-A summary of the conversation is provided below.
+# A summary of the conversation is provided below.
 
 ## The Why: A Passion for Empowering Others
 Annie explained that she first took a course on Andean women with a professor who is Quechan, an indigenous community in the Andes of Peru. At 18, she went to work with the community and found that although she and they were the same age, their trajectories were different.
