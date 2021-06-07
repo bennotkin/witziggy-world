@@ -1,8 +1,8 @@
 list1:
 - name: Podcast
-  link: ...
-- name: Past Quarterlies
-  link: ...
+  link: /podcast/
+- name: Quarterlies
+  link: /quarterlies/
 # - name: Instagram
 #   link: ...
 #   type: social
@@ -12,8 +12,6 @@ list1:
 
 list2:
 - name: Subscribe
-  link: ...
+  link: /subscribe/
 - name: About
-  link: ...
-- name: Contact
-  link: ...
+  link: /about/
