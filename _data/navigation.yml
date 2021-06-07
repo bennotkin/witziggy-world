@@ -1,6 +1,8 @@
-- name: Quarterlies
-  link: /quarterlies/
 - name: Subscribe
-  link: /contact/
+  link: /subscribe/
+- name: Podcast
+  link: /podcast/
 - name: About
   link: /about/
+- name: Quarterlies
+  link: /quarterlies/

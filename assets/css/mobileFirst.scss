@@ -174,12 +174,24 @@ h4 {
     margin: 0.8em 0 0 0;
 }
 
+blockquote {
+    font-family: $font-stack-sec;
+    background-color: $color-back;
+    margin: .8em 0;
+    padding: 0 3ch;
+    border-radius: .5ch;
+
+    p {
+        padding: 1.5ch 0;
+    }
+}
+
 code {
     font-family: sf-mono, "SF Mono", Menlo, monospace;
     background-color: $color-back;
     padding: 0 0.5ch;
     font-size: 0.8em;
-    border-radius: 3px;
+    border-radius: .5ch;
 }
 pre.highlight {
     background-color: $color-back;
