@@ -2,11 +2,11 @@
 title: Nathalie Gazzaneo Finds Clues in Big Issues
 date: 2021-06-20
 layout: post
+summary: Nath Gazzaneo on Problem Driven Iterative Action
+category: housing
 longtitle: |
     <p>NATHALIE GAZZANEO <i>finds clues in</i></p>
     <p>BIG ISSUES</p>
-summary: Nath Gazzaneo on Problem Driven Iterative Action
-category: housing
 author: Kyle Witzigman
 ---
 
