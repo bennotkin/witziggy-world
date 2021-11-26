@@ -1,5 +1,5 @@
 ---
-title: Leonardo Campos Knows the Pen Mightier than the Sword
+title: Leonardo Campos Knows the Pen is Mightier than the Sword
 date: 2021-09-22
 layout: post
 longtitle: |
