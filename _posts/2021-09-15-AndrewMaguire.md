@@ -1,7 +1,7 @@
 ---
 title: Andrew Maguire Explores the Hidden Curriculum
 date: 2021-09-15
-summary: Podcast with Andrew Maguire
+summary: Andrew Maguire Hidden Curriculum
 longtitle: |
     <p>ANDREW MAGUIRE <i> explores</i></p>
     <p><i>the </i> HIDDEN CURRICULUM</p>
