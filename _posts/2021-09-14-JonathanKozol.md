@@ -7,3 +7,6 @@ layout: post
 author: Kyle Witzigman
 ---
 
+A book from the 1990s still has such presence today. I would love to see a 2021 version of this work.
+
+Review coming soon!
