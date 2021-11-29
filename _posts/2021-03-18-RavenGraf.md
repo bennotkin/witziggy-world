@@ -9,6 +9,7 @@ longtitle: |
 summary: Raven Graf on Climate Legislation
 category: environment
 ---
+
 ## Podcast
 <div id="buzzsprout-player-8644724"></div>
 <script src="https://www.buzzsprout.com/1795888/8644724-1-raven-graf-wants-to-pass-climate-legislation-now.js?container_id=buzzsprout-player-8644724&player=small" type="text/javascript" charset="utf-8"></script>
