@@ -11,8 +11,7 @@ category: environment
 ---
 
 ## Podcast
-<div id="buzzsprout-player-8644724"></div>
-<script src="https://www.buzzsprout.com/1795888/8644724-1-raven-graf-wants-to-pass-climate-legislation-now.js?container_id=buzzsprout-player-8644724&player=small" type="text/javascript" charset="utf-8"></script>
+<div id='buzzsprout-small-player'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2039233.js?container_id=buzzsprout-small-player&player=small'></script>
 
 # A summary of the conversation is provided below.
 
