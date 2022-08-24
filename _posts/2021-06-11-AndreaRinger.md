@@ -12,5 +12,4 @@ author: Kyle Witzigman
 ---
 
 ## Podcast
-<div id="buzzsprout-player-8837233"></div>
-<script src="https://www.buzzsprout.com/1795888/8837233-4-andrea-ringer-assesses-the-causes-and-consequences-of-housing-policies.js?container_id=buzzsprout-player-8837233&player=small" type="text/javascript" charset="utf-8"></script>
+<div id="buzzsprout-player-11193388"></div><script src="https://www.buzzsprout.com/2039233/11193388-4-andrea-ringer-assesses-the-causes-and-consequences-of-housing-policies.js?container_id=buzzsprout-player-11193388&player=small" type="text/javascript" charset="utf-8"></script>

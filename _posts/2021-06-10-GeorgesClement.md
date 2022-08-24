@@ -11,8 +11,7 @@ author: Kyle Witzigman
 ---
 
 ## Podcast
-<div id="buzzsprout-player-8837260"></div>
-<script src="https://www.buzzsprout.com/1795888/8837260-5-georges-clement-and-justfix-leverage-tech-for-housing-justice.js?container_id=buzzsprout-player-8837260&player=small" type="text/javascript" charset="utf-8"></script>
+<div id="buzzsprout-player-11193403"></div><script src="https://www.buzzsprout.com/2039233/11193403-5-georges-clement-and-justfix-are-leveraging-tech-for-housing-justice.js?container_id=buzzsprout-player-11193403&player=small" type="text/javascript" charset="utf-8"></script>
 
 # A summary of the conversation is below.
 
