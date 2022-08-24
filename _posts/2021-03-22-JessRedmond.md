@@ -10,8 +10,7 @@ category: environment
 author: Kyle Witzigman
 ---
 ## Podcast
-<div id="buzzsprout-player-8644736"></div>
-<script src="https://www.buzzsprout.com/1795888/8644736-2-jess-redmond-explores-veganism-and-philosophy.js?container_id=buzzsprout-player-8644736&player=small" type="text/javascript" charset="utf-8"></script>
+<div id="buzzsprout-player-11193349"></div><script src="https://www.buzzsprout.com/2039233/11193349-2-jess-redmond-explores-veganism-and-philosophy.js?container_id=buzzsprout-player-11193349&player=small" type="text/javascript" charset="utf-8"></script>
 
 # A summary of the conversation is provided below.
 
