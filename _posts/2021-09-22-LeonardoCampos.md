@@ -12,4 +12,4 @@ author: Kyle Witzigman
 ---
 
 ## Podcast
-<div id="buzzsprout-player-9626663"></div><script src="https://www.buzzsprout.com/1795888/9626663-8-leonardo-campos-knows-the-pen-is-mightier-than-the-sword.js?container_id=buzzsprout-player-9626663&player=small" type="text/javascript" charset="utf-8"></script>
+<div id="buzzsprout-player-11193480"></div><script src="https://www.buzzsprout.com/2039233/11193480-8-leonardo-campos-knows-the-pen-is-mightier-than-the-sword.js?container_id=buzzsprout-player-11193480&player=small" type="text/javascript" charset="utf-8"></script>
