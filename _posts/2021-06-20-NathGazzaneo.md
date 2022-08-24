@@ -11,5 +11,4 @@ author: Kyle Witzigman
 ---
 
 ## Podcast
-<div id="buzzsprout-player-8837276"></div>
-<script src="https://www.buzzsprout.com/1795888/8837276-6-nathalie-gazzaneo-finds-clues-in-big-issues.js?container_id=buzzsprout-player-8837276&player=small" type="text/javascript" charset="utf-8"></script>
+<div id="buzzsprout-player-11193442"></div><script src="https://www.buzzsprout.com/2039233/11193442-6-nathalie-gazzaneo-finds-clues-in-big-issues.js?container_id=buzzsprout-player-11193442&player=small" type="text/javascript" charset="utf-8"></script>
